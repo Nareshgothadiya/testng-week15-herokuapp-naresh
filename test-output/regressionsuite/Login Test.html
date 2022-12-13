@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 20:37:10 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22481 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='login.com.herokuapp.testsuite.LoginPageTest.verifyThePasswordErrorMessage()'><b>verifyThePasswordErrorMessage</b><br>Test class: login.com.herokuapp.testsuite.LoginPageTest<br/>
+<a href="#Output-159917166" onClick='toggleBox("Output-159917166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159917166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159917166">
+enterUsername2[[ChromeDriver: chrome on WINDOWS (ea6d3134fbf55e0b99078f545b67b253)] -> id: username]<br/>
+enterPassword2[[ChromeDriver: chrome on WINDOWS (ea6d3134fbf55e0b99078f545b67b253)] -> id: password]<br/>
+clickOnCurrencyLink[[ChromeDriver: chrome on WINDOWS (ea6d3134fbf55e0b99078f545b67b253)] -> xpath: //*[@id="login"]/button/i]<br/>
+getVerifyText2[[ChromeDriver: chrome on WINDOWS (ea6d3134fbf55e0b99078f545b67b253)] -> xpath: //div[@id='flash-messages']//div[1]]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_20_37_24_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_20_37_24_GMT_2022.jpg><img src=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_20_37_24_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>login.com.herokuapp.testsuite.LoginPageTest@eb21112</td></tr>
+<tr>
+<td title='login.com.herokuapp.testsuite.LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()'><b>UserShouldLoginSuccessfullyWithValidCredentials</b><br>Test class: login.com.herokuapp.testsuite.LoginPageTest<br/>
+<a href="#Output-995631377" onClick='toggleBox("Output-995631377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-995631377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-995631377">
+enterUsername[[ChromeDriver: chrome on WINDOWS (c935564fff6567583e3a29b8d7961066)] -> id: username]<br/>
+enterPassword[[ChromeDriver: chrome on WINDOWS (c935564fff6567583e3a29b8d7961066)] -> name: password]<br/>
+clickOnLoginButton[[ChromeDriver: chrome on WINDOWS (c935564fff6567583e3a29b8d7961066)] -> xpath: //*[@id="login"]/button/i]<br/>
+getVerifyText[[ChromeDriver: chrome on WINDOWS (c935564fff6567583e3a29b8d7961066)] -> xpath: //*[@id="content"]/div/h4]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_20_37_18_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_20_37_18_GMT_2022.jpg><img src=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/UserShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_20_37_18_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>login.com.herokuapp.testsuite.LoginPageTest@eb21112</td></tr>
+<tr>
+<td title='login.com.herokuapp.testsuite.LoginPageTest.verifyTheUsernameErrorMessage()'><b>verifyTheUsernameErrorMessage</b><br>Test class: login.com.herokuapp.testsuite.LoginPageTest<br/>
+<a href="#Output-1432403167" onClick='toggleBox("Output-1432403167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1432403167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1432403167">
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_20_37_31_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_20_37_31_GMT_2022.jpg><img src=C:\Users\USER\IdeaProjects\testng-week15-herokuapp-naresh/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_20_37_31_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>login.com.herokuapp.testsuite.LoginPageTest@eb21112</td></tr>
+</table><p>
+</body>
+</html>
